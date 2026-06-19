@@ -20,7 +20,7 @@
 </head>
 
 <body>
-    {!! "<h1>Data From an Array</h1>" !!}
+    {{-- {!! "<h1>Data From an Array</h1>" !!}
     @php $data = ['name' => 'John', 
     'age' => 30,
     'city' => 'New York',
@@ -30,8 +30,12 @@
     <ul>
         @foreach ($data as $key => $value)
             <li>{{ $key }}: {{ $value }}</li>
-        @endforeach
+        @endforeach 
+        
     </ul>
+    --}}
+    @include('header', ['title' => 'Welcome to Laravel Blade Template'])
+    <h1>this is the main content</h1>
 </body>
 
 </html>
