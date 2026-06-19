@@ -85,14 +85,13 @@ body {
     <header class="static-header">
         <div class="header-container">
             <div class="logo">
-                <a href="#">Brand<span>Name</span></a>
+                <a href="/">Brand<span>Name</span></a>
             </div>
             <nav class="nav-links">
                 <ul>
-                    <li><a href="#" class="active">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/services">Services</a></li>
                 </ul>
             </nav>
         </div>
