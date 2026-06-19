@@ -34,7 +34,11 @@
         
     </ul>
     --}}
-    @include('header', ['title' => 'Welcome to Laravel Blade Template'])
+    @php 
+$names = ['Alice', 'Bob', 'Charlie', 'David', 'Eve'];
+    @endphp
+    @include('header', ['title' => 'Welcome to Laravel Blade Template'], ['names' => $names])
+
     <h1>this is the main content</h1>
 </body>
 

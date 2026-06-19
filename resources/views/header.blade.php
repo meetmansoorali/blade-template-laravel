@@ -8,5 +8,12 @@
 </head>
 <body>
     <h1>This is the header</h1>
+    <span>{{ $title }}</span>
+    <ul>
+        @forelse ( $names as $name )
+            <li>{{ $name }}</li>
+        @empty
+            <li>No names available.</li>
+        @endforelse
 </body>
 </html>
